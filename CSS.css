@@ -1,0 +1,164 @@
+.body {
+  background-color: #1b0347;
+}
+.everything {
+  height: 100%;
+  width: 100%;
+  background-color: #1b0347;
+}
+
+.flex-container-topnav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top:0;
+  background-color: rgb(57, 14, 138);
+  width: 100%;
+  padding: 3%;
+  margin: auto;
+  
+  
+  
+}
+
+.topnav1 {
+
+margin-left: 2%;
+margin-right: 2%;
+}
+
+
+.topnav2 {
+  
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+
+
+  .topnav3 {
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+
+  .topnavside {
+   
+    
+    margin-right: 10%;
+  }
+
+
+
+  .searchbar {
+    
+  }
+
+  .main {
+    flex-direction: row;
+    display: flex;
+
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .side1 {
+    background-color: #1b0347;
+    width: 20%;
+
+    position: fixed;
+    height: 80%;
+    left: 0;
+    bottom: 0;
+  }
+
+
+  .side2 {
+    background-color: #1b0347;
+    height: 80%;
+    position: fixed;
+    width: 20%;
+    right: 0;
+    bottom: 0;
+    
+    
+  }
+
+  .mainside{
+    width: 60%;
+    
+
+   
+    
+    background-color: #04047c;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    
+  }
+  .Reafördig {
+    display: flex;
+    flex-direction: row;
+    background-color: #04047c;
+    padding: none; 
+    
+    
+  }
+
+.reaspel  {
+  
+  margin: 3%;
+  position: relative;
+  box-shadow: 10px;
+}
+
+
+.imgreaspel {
+  height: 100%;
+  width: 100%; 
+  margin: auto;
+ 
+}
+
+.bottom-right {
+  
+  
+  color: aliceblue;
+  position: absolute;
+  
+}
+.text-erbjudadenfordig{
+  size: 50px;
+  font-size: 200%;
+  color: rgb(248, 36, 255);
+  background-color: #04047c;
+ margin: auto; 
+ padding: 2%;
+ 
+}
+
+
+
+
+.line {
+  width: 50%;
+  border: 1px solid black;
+  
+  
+}
+
+.Kundvagn {
+  width: 70px;
+  height: 60px;
+}
+
+.Profile {
+  width: 80px;
+  height: 60px;
+}
+.hejsan {
+  top: 20%;
+}
