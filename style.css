@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #04047c;
+    padding: 20px 10px;
+    margin-bottom: 2%;
+    
+  }
+  
+  /* header links */
+  .header a {
+    float: left;
+    color: rgb(23, 190, 255);
+    text-align: center;
+    padding: none;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 4px;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(248, 36, 255);
+    color: black;
+    padding: none;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: red ;
+    color: red;
+    
+    
+  }
+  
+  a:visited {
+    color: rgb(23, 190, 255);
+  
+  }
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    padding: 20px;
+    
+  }
+  .header-right a {
+  margin-right: 100px;
+  padding: 4px;
+  }
+  
+  .body {
+    background-color: rgb(60, 0, 88);
+  }
+  
+  /* Media queries for responsiveness  */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+   
+  }
+
+body.loggedin {
+	background-color: rgb(60, 0, 88);
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
